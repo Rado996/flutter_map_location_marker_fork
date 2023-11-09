@@ -14,7 +14,10 @@ dependencies:
     sdk: flutter
   flutter_compass: any
   flutter_joystick: ^0.0.3
-  flutter_map: any
+  flutter_map:
+    git:
+      url: https://github.com/Rado996/flutter_map_my_fork.git
+      ref: updatedRelease
   flutter_map_location_marker:
     path: ../
   geolocator: any
